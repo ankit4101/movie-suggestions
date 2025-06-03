@@ -65,17 +65,17 @@ if st.button('Recommend'):
     col1, col2, col3, col4, col5 = st.columns(5, gap='medium')
     with col1:
         st.write(names[0])
-        st.image(posters[0], use_column_width=True)
+        st.image(posters[0], use_container_width=True)
     with col2:
         st.write(names[1])
-        st.image(posters[1], use_column_width=True)
+        st.image(posters[1], use_container_width=True)
     with col3:
         st.write(names[2])
-        st.image(posters[2], use_column_width=True)
+        st.image(posters[2], use_container_width=True)
     with col4:
         st.write(names[3])
-        st.image(posters[3], use_column_width=True)
+        st.image(posters[3], use_container_width=True)
     with col5:
         st.write(names[4])
-        st.image(posters[4], use_column_width=True)
+        st.image(posters[4], use_container_width=True)
 
