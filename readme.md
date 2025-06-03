@@ -4,13 +4,13 @@
 
 # 🎬 Movie Suggestions
 
-A simple yet effective movie recommendation system that suggests 5 movies similar to the one you enter. Built using the TMDb 5000 Movie Dataset and powered by natural language processing techniques.([medium.com][1])
+A simple yet effective movie recommendation system that suggests 5 movies similar to the one you enter. Built using the TMDb 5000 Movie Dataset and powered by natural language processing techniques.
 
 ---
 
 ## 📊 Dataset
 
-This project utilizes the [TMDb 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata), which contains metadata for 5,000 movies, including overviews, genres, cast, crew, and more. ([kaggle.com][2])
+This project utilizes the [TMDb 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata), which contains metadata for 5,000 movies, including overviews, genres, cast, crew, and more. 
 
 ---
 
@@ -29,7 +29,7 @@ This project utilizes the [TMDb 5000 Movie Dataset](https://www.kaggle.com/datas
 
 * Python 3.x
 
-* Install the required packages:([cocalc.com][3], [github.com][4])
+* Install the required packages:
 
 ```bash
   pip install -r requirements.txt
@@ -39,7 +39,7 @@ This project utilizes the [TMDb 5000 Movie Dataset](https://www.kaggle.com/datas
 
 ### Running the Application
 
-1. Clone the repository:([kaggle.com][2])
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/ankit4101/movie-suggestions.git
@@ -48,7 +48,7 @@ This project utilizes the [TMDb 5000 Movie Dataset](https://www.kaggle.com/datas
 
 
 
-2. Run the Streamlit app:([python.plainenglish.io][5])
+2. Run the Streamlit app:
 
    ```bash
    streamlit run app.py
@@ -84,7 +84,7 @@ movie-suggestions/
 * `movie-recommender-system.ipynb`: Jupyter notebook containing the data preprocessing and model building steps.
 * `movie_dict.pkl`: Serialized dictionary containing movie data.
 * `similarity.pkl`: Serialized similarity matrix used for recommendations.
-* `requirements.txt`: List of Python dependencies.([github.com][6])
+* `requirements.txt`: List of Python dependencies.
 
 ---
 
